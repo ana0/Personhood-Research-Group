@@ -3,6 +3,8 @@
 //   Readings/YYYY-MM-DD-slug.*    -> copied, linked from the schedule
 //   MeetingNotes/YYYY-MM-DD-*.md  -> meetings/<slug>/index.html, linked from the schedule
 // Anything without a YYYY-MM-DD- filename prefix is ignored.
+// A reading whose slug ends in -excerpt is a companion to that session's full
+// text: it is linked as EXCERPT beside NOTES rather than leading the row.
 
 import { readdirSync, readFileSync, writeFileSync, mkdirSync, cpSync, rmSync } from 'node:fs';
 import { join, extname, basename } from 'node:path';
@@ -11,6 +13,7 @@ import { marked } from 'marked';
 const OUT = '_site';
 const SITE_TITLE = 'Personhood Research Group';
 const DATED = /^(\d{4}-\d{2}-\d{2})-(.+)$/;
+const EXCERPT = /-excerpt$/;
 
 const titleize = (slug) =>
   slug.replace(/[-_]+/g, ' ').replace(/\s+/g, ' ').trim()
@@ -47,13 +50,15 @@ for (const m of meetings) {
 for (const r of readings) {
   r.title = titleize(r.slug);
   r.url = `readings/${r.file}`;
+  if (EXCERPT.test(r.slug)) r.kind = 'excerpt';
 }
 
-// One row per date: a session's notes and its reading(s) share a line.
+// One row per date: a session's notes, reading(s) and excerpt(s) share a line.
+const BUCKET = { meeting: 'meetings', reading: 'readings', excerpt: 'excerpts' };
 const byDate = new Map();
 for (const e of [...meetings, ...readings]) {
-  if (!byDate.has(e.date)) byDate.set(e.date, { date: e.date, meetings: [], readings: [] });
-  byDate.get(e.date)[e.kind === 'meeting' ? 'meetings' : 'readings'].push(e);
+  if (!byDate.has(e.date)) byDate.set(e.date, { date: e.date, meetings: [], readings: [], excerpts: [] });
+  byDate.get(e.date)[BUCKET[e.kind]].push(e);
 }
 const schedule = [...byDate.values()].sort((a, b) => b.date.localeCompare(a.date));
 
@@ -74,16 +79,18 @@ ${main}
 
 const link = (e, text, cls) => `<a${cls ? ` class="${cls}"` : ''} href="${e.url}">${escape(text ?? e.title)}</a>`;
 
-// The row leads with the reading; the notes, if any, sit at the right as NOTES.
+// The row leads with the full reading, falling back to an excerpt and then to the
+// notes; whichever of those did not lead sits at the right as EXCERPT / NOTES.
 function row(day) {
-  const lead = day.readings.length
-    ? day.readings.map((r) => link(r)).join(' · ')
-    : day.meetings.map((m) => link(m)).join(' · ');
-  const notes = day.readings.length ? day.meetings.map((m) => link(m, 'notes', 'kind')) : [];
+  const lead = [day.readings, day.excerpts, day.meetings].find((g) => g.length) ?? [];
+  const also = [
+    ...(lead === day.excerpts ? [] : day.excerpts).map((r) => link(r, 'excerpt', 'kind')),
+    ...(lead === day.meetings ? [] : day.meetings).map((m) => link(m, 'notes', 'kind')),
+  ];
   return `  <li>
     <time datetime="${day.date}">${longDate(day.date)}</time>
-    <span class="what">${lead}</span>${notes.length ? `
-    <span class="also">${notes.join(' · ')}</span>` : ''}
+    <span class="what">${lead.map((e) => link(e)).join(' · ')}</span>${also.length ? `
+    <span class="also">${also.join(' · ')}</span>` : ''}
   </li>`;
 }
 
