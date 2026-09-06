@@ -81,6 +81,8 @@ const link = (e, text, cls) => `<a${cls ? ` class="${cls}"` : ''} href="${e.url}
 
 // The row leads with the full reading, falling back to an excerpt and then to the
 // notes; whichever of those did not lead sits at the right as EXCERPT / NOTES.
+// The .also span is emitted even when empty so its column keeps a fixed width and
+// the centred titles stay aligned down the page.
 function row(day) {
   const lead = [day.readings, day.excerpts, day.meetings].find((g) => g.length) ?? [];
   const also = [
@@ -89,8 +91,8 @@ function row(day) {
   ];
   return `  <li>
     <time datetime="${day.date}">${longDate(day.date)}</time>
-    <span class="what">${lead.map((e) => link(e)).join(' · ')}</span>${also.length ? `
-    <span class="also">${also.join(' · ')}</span>` : ''}
+    <span class="what">${lead.map((e) => link(e)).join(' · ')}</span>
+    <span class="also">${also.join(', ')}</span>
   </li>`;
 }
 
