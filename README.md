@@ -9,6 +9,8 @@ The Personhood Research Group investigates how personhood has been constituted a
 - How do related disciplines like Animal Rights and Ecology understand subjecthood, in contrast to human personhood? 
 - How might prior personhood protocols be applied to AI?
 
+For an understanding of where we're heaaded, here is a longer list of [research questions](researchquestions.md) collected from the group and [texts nominated](prospectivereadings.md) but not yet scheduled.
+
 We meet twice-monthly. A text (or excerpts) will be chosen and circulated in advance and the standard meeting format is 15-20 minutes silent review followed by 30-35 minutes discussion.
 
 To follow along with our research or participate in the next call, join our [Email list](https://buttondown.com/personhoodresearchgroup) and [Calendar (should be subscribable)](https://calendar.google.com/calendar/u/0?cid=MjEwM2E5NWQyZGMyMTkyN2QyMDNmOWU4OTMzYjcyZmMzZTA5ZGFkZGExM2RjMTI5NDUxNzIxODYyMWExOWFlOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
