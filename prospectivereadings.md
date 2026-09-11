@@ -16,12 +16,15 @@ questions these were nominated against are in [research questions](researchquest
 - **Margaret Jane Radin, "Property and Personhood" (1982)** — nominated with an
   interest in updating it for the present.
   <https://cyber.harvard.edu/IPCoop/82radi.html>
+- **Carol M. Rose, "Crystals and Mud in Property Law" (1988)**, 40 *Stan. L. Rev.*
+  577 — offered as "not quite personhood, but related to the question of boundary
+  conditions": property rules oscillate between hard-edged "crystal" rules and muddy
+  standards. Speaks directly to the observation from the first session that identity
+  often starts as a porous boundary and is later rendered crystal clear.
+  <https://www.jstor.org/stable/1228813>
 - **"What is a Tort?", *Harvard Law Review* vol. 139** — offered as relevant to how
   tort law reshaped corporate personhood.
   <https://harvardlawreview.org/print/vol-139/what-is-a-tort/>
-- **Untitled article on boundary conditions** — flagged as "not quite personhood,
-  but related to the question of boundary conditions."
-  <https://www.jstor.org/stable/1228813>
 - **Two working papers on AI, values, and liability** — the first reads Hume on the
   potential for values to emerge from repeated iteration against an objective or
   benchmark; the second considers existing liability regimes as applied to AI agents.
@@ -30,6 +33,9 @@ questions these were nominated against are in [research questions](researchquest
 - **Old law school paper on tort liability and AI** — being updated by a group
   member, who may bring sources on historical models of tort liability as applied to
   animals, and on how corporations affected tort liability.
+- **Papers on law and perspectivism** — recently completed by a group member and
+  offered as non-Western and alternative-modern frameworks for personhood.
+  *References to follow.*
 
 ## Philosophy and theory
 
@@ -41,11 +47,40 @@ questions these were nominated against are in [research questions](researchquest
 - **"The Replacements: Capgras and the Anthropocene"**, Endnotes — on a world of
   adversarial doubles and surreptitious imitation.
   <https://endnotes.cc/p/the-replacements-capgras-and-the>
-- **Companion volume on monsters as category crisis** (University of Minnesota
-  Press), offered alongside the above.
+- **Jeffrey Jerome Cohen (ed.), *Monster Theory: Reading Culture*** (University of
+  Minnesota Press, 1996) — offered alongside the above. Cohen's opening essay,
+  "Monster Culture (Seven Theses)", makes the monster the harbinger of category
+  crisis, which is the frame being borrowed here.
   <https://www.jstor.org/stable/10.5749/j.ctttsq4d>
+- **Elizabeth A. Povinelli, *Geontologies: A Requiem to Late Liberalism*** (Duke
+  University Press, 2016) — raised in the first session for the anecdote of the rock
+  formation "Two Women Sitting Down", destroyed by a mining company, and the legal
+  system's inability to hold both frameworks at once: destruction of property versus
+  murder of a being.
 - **"A Good Death" essay**, Summer of Protocols — described as especially generative.
   <https://summerofprotocols.com/good-death-web>
+
+## Digital identity and proof of personhood
+
+Nominated on the grounds that determining something *has* personhood is only half the
+problem: it is also getting increasingly difficult to prove you are that thing in a
+digital context.
+
+- **"Proof of personhood: What it is and why it's needed"**, World (Worldcoin),
+  21 February 2024 — the case for verifying humanness and uniqueness online as AI
+  advances, and for World ID's iris-biometric protocol as the way to do it.
+  <https://world.org/blog/world/proof-of-personhood-what-it-is-why-its-needed>
+- **Puja Ohlhaver, Mikhail Nikulin & Paula Berman, "Compressed to 0: The Silent
+  Strings of Proof of Personhood" (2024)** — the counterweight. Chronicles Idena's
+  proof-of-personhood experiment from its 2019 launch to a crisis in May 2022: the
+  protocol verified humans successfully, but hidden pools emerged in which
+  "puppeteers" paid people \$2–\$14 every few weeks for their secret keys and ran
+  their accounts. By May 2022, 23 entities — under 0.6% of the network's distinct
+  entities — controlled some 40% of accounts and half the rewards. Filtering humans
+  from bots turned out not to touch the harder problem of filtering humans acting
+  like bots.
+  <https://ssrn.com/abstract=4749892>
+  (annotated copy: <https://ia601600.us.archive.org/35/items/elopio-papers/2024-compressed_to_0-annotated.pdf>)
 
 ## Fiction
 

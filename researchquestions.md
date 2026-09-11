@@ -15,6 +15,8 @@ framings stay visible.
   pregenerate persons mean for their personhood?
 - Are adversarial doubles and monsters a category crisis that produces a new type
   of person?
+- What do non-Western and perspectivist frameworks offer that liberal legal
+  framings of personhood do not?
 
 ## Rights, autonomy, and responsibility
 
@@ -59,10 +61,32 @@ framings stay visible.
 - What of collectives with cognition and intelligence but no apparent sentience,
   consciousness, or experience?
 
+## Formation and potential
+
+- What happens to human potential when the conditions surrounding a person
+  systematically shape what they are able to become? (Asked from a
+  phenomenological standpoint.)
+
+## Digital conditions, trust, and proof
+
+- How do technology and social media erode trust, and what does that erosion do to
+  personhood?
+- What happens to personhood when working "online" is no longer separable from the
+  labour market — when the space of social life and the space of labour are the same?
+- Establishing that something *has* personhood is one problem; proving you are that
+  thing in a digital context is another, and getting harder. What does the
+  difficulty of proving it do to persons?
+- Proof-of-personhood systems give people economic incentives to periodically
+  differentiate themselves from bots. What does that incentive do to the people
+  inside them?
+
 ## Artificial intelligence
 
 - Is legal personhood for AI agents presumptively desirable?
 - Who would benefit from an AI personhood protocol?
+- How does AI run through all of the above — as a source of distrust, as a
+  participant in online labour, and as the reason proof of personhood is suddenly
+  needed?
 - Can values emerge from repeated iteration against an objective or benchmark on the
   part of AI models, and would that constitute the volition — preferences and values
   animating intent — that one construction of personhood requires?
