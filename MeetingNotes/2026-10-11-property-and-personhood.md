@@ -168,8 +168,6 @@ readings and a book-writing initiative.
 
 ## Memorable Quotes
 
-> "Is it slavery or BDSM? You know? Like, what are we dealing with here?"
-
 > "Consciousness is not something you possess. Rather, it's something that
 > emerges from our relationships."
 
