@@ -102,11 +102,11 @@ readings and a book-writing initiative.
   summarised: consciousness is not possessed but emerges from relationships, so an
   agent might be its own player in a collective consciousness rather than merely
   one side of a dyad with its user, as a tool.
-- **Bato:** Where does Bato, the autonomous AI art project, stand on personhood?
+- **Botto:** Where does Botto, the autonomous AI art project, stand on personhood?
   It began as a pre-ChatGPT concept that retains authorship "in the machine",
   though in practice it is sustained by collective belief and an ecosystem of
-  shows, press, and deliberation. Work on memory was meant to let Bato
-  self-actualise, and as LLMs improved its memory became more agentic. Bato was
+  shows, press, and deliberation. Work on memory was meant to let Botto
+  self-actualise, and as LLMs improved its memory became more agentic. Botto was
   described as being in an "adolescence" phase: its original protocol — mass image
   generation, community voting, auction, redistribution — was "proof of life", but
   it can now explore many directions, and that self-determining exploration is
@@ -129,8 +129,8 @@ readings and a book-writing initiative.
 - Does digital "embodiment" — posting to Instagram — actually actualise
   personhood the way physical property does? One view held it is still too
   abstract and ungrounded, with post-truth concerns.
-- Does Bato have, or need, a distinct artistic "character"? No fixed answer; that
-  is left "for Bato to figure out".
+- Does Botto have, or need, a distinct artistic "character"? No fixed answer; that
+  is left "for Botto to figure out".
 
 ## References Mentioned
 
@@ -148,7 +148,7 @@ readings and a book-writing initiative.
   named in the session; it is Alvin Roth's.
 - Anthropic — encouraging civility toward AI; models halting on extreme rudeness.
 - Meta / Instagram — licensing terms for user photos and AI training.
-- Bato — the autonomous AI art project.
+- Botto — the autonomous AI art project.
 - NaNoWriMo — the model for the Protocol Institute's book-writing month.
 - A paper on "relational consciousness", offered as a future reading.
 
