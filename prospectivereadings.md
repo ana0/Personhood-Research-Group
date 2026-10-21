@@ -23,9 +23,6 @@ questions these were nominated against are in [research questions](researchquest
 - **Lawrence B. Solum, "Legal Personhood for Artificial Intelligences" (1992)**,
   70 *N.C. L. Rev.* 1231.
   <https://scholarship.law.unc.edu/nclr/vol70/iss4/4/>
-- **Margaret Jane Radin, "Property and Personhood" (1982)** — nominated with an
-  interest in updating it for the present.
-  <https://cyber.harvard.edu/IPCoop/82radi.html>
 - **Carol M. Rose, "Crystals and Mud in Property Law" (1988)**, 40 *Stan. L. Rev.*
   577 — offered as "not quite personhood, but related to the question of boundary
   conditions": property rules oscillate between hard-edged "crystal" rules and muddy
@@ -76,7 +73,7 @@ questions these were nominated against are in [research questions](researchquest
 - **"A Good Death" essay**, Summer of Protocols — described as especially generative.
   <https://summerofprotocols.com/good-death-web>
 - **G. W. F. Hegel, *Elements of the Philosophy of Right* (1820)** — the source Radin's
-  "Property and Personhood" (under law, above) is working from: Hegel treats property
+  "Property and Personhood" (read 11 October) is working from: Hegel treats property
   as the first external embodiment of the person's freedom.
 - **Kwame Gyekye, *An Essay on African Philosophical Thought: The Akan Conceptual
   Scheme*** (Cambridge University Press, 1987; revised edition Temple University Press,
@@ -92,17 +89,6 @@ questions these were nominated against are in [research questions](researchquest
 
 ## Anthropology, history, and social theory
 
-- **Marcel Mauss, "A Category of the Human Mind: The Notion of Person; the Notion of
-  Self" (1938)** — the Huxley Memorial Lecture, tracing the category of the person from
-  masks and roles, through the Roman *persona* as a legal status, to the modern self.
-  English translation by W. D. Halls in Michael Carrithers, Steven Collins & Steven
-  Lukes (eds.), *The Category of the Person: Anthropology, Philosophy, History*
-  (Cambridge University Press, 1985).
-- **Ian Hacking, "Making Up People" (1986)**, in Thomas C. Heller, Morton Sosna & David
-  E. Wellbery (eds.), *Reconstructing Individualism* (Stanford University Press) — new
-  ways of classifying people bring new kinds of people into being. Hacking returned to
-  the argument in a 2006 *London Review of Books* essay of the same title.
-  <https://www.lrb.co.uk/the-paper/v28/n16/ian-hacking/making-up-people>
 - **Harvey Sacks, "On Doing 'Being Ordinary'"**, in J. Maxwell Atkinson & John Heritage
   (eds.), *Structures of Social Action* (Cambridge University Press, 1984) — being
   ordinary as work people actively do, not a default state.
